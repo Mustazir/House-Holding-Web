@@ -1,20 +1,17 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import HamburgerMenu from "./Shared/HamburgerMenu";
 
 const Navbar = () => {
   return (
-    <div className="mx-auto">
-      <nav className="absolute top-0 left-0 w-full pt-10 text-white z-10">
-        <div className="container">
-          <div className="flex justify-between items-center">
-            <h1>Shanta</h1>
-            <div>
-              <GiHamburgerMenu className="text-3xl cursor-pointer"></GiHamburgerMenu>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <>
+   <nav className="flex justify-between mx-auto items-center w-[90%] p-4 shadow-md">
+    <div>Shanta Holdings</div>
+    <div>
+      <HamburgerMenu></HamburgerMenu>
     </div>
+   </nav>
+   </>
   );
 };
 
