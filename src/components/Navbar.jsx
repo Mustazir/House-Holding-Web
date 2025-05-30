@@ -5,9 +5,9 @@ import HamburgerMenu from "./Shared/HamburgerMenu";
 const Navbar = () => {
   return (
     <>
-   <nav className="flex justify-between mx-auto items-center w-[90%] p-4 shadow-md">
-    <div>Shanta Holdings</div>
-    <div>
+   <nav className="flex justify-between mx-auto items-center w-[90%] p-7 shadow-md">
+    <div className="text-4xl">Shanta Holdings</div>
+    <div className="">
       <HamburgerMenu></HamburgerMenu>
     </div>
    </nav>
