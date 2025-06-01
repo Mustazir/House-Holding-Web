@@ -1,2 +1,27 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+/* 
+    --primary-color: #978c21;
+    --secondary-color: #8e8a1f;
+    --primary-color-two: #f2f2f2;
+    --secondary-color-two: #c6c6c6; */
+
+
+    @theme {
+  
+  
+  --color-primary: #978c21;
+  --color-secondary-color: #8e8a1f;
+  --color-primary-color-two: #f2f2f2;
+  --secondary-color-two: #c6c6c6;
+  
+}
